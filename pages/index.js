@@ -1,4 +1,5 @@
 import Clock from '../components/Clock';
+import { withLayout } from '../components/Layout';
 
 const Index = () => (
   <div className="dashboard">
@@ -6,4 +7,4 @@ const Index = () => (
   </div>
 );
 
-export default Index;
+export default withLayout(Index);
